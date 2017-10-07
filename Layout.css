@@ -1,0 +1,31 @@
+   #btn { border-radius: 2px;
+    background-color: #0099FF;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin-top: 15px;
+	}
+   #header {
+   opacity:1;
+   position:absolute;
+   left:120px;
+   width:100%;
+   height:70px;
+   background-color:none
+   }
+   #block {
+   style=opacity:1;
+   left:0px;
+   width:100%;
+   height:70px;
+   background-color:NONE
+   }
+   #table {
+   padding: 14px 22px;
+   border: 0;
+   border:1 px solid black ;
+   border-spacing:2px; 
+   border-collapse:collapse; 
+	}

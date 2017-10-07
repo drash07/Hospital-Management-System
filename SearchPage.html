@@ -1,0 +1,63 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<title>Patient Details</title>
+<body background="light_blue.jpg">
+<div id="block">
+	<div id="header">
+<div class="text">
+<h1><br><b><font face="broadway" color=0099FF size=20>HEALTHCARE</b></font></h1>
+</div>
+</div>
+<br><br><br><br><br><br>
+<table width=100% color="white" cellpadding="10">
+ <tr bgcolor="0099FF">
+<td>
+   <a href="HomePage.html"><font color="WHITE">HOME</a>
+  
+  </td>
+<td>  
+   <a href="SearchPage.html"><font color="WHITE">PATIENT FORM</a>
+   
+
+  </td>
+  <td>
+   <a href="AboutUs.html"><font color="WHITE">ABOUT US</a>
+  
+  </td>
+ </tr>
+</table>
+
+<form name="myform"  action="testmysql.php" method="post">
+<center><font size=10 color=0099FF >
+Health condition <br></font>
+Diagnosis:
+  <input type="number"  name="ADMITTING_DIAGNOSIS_CODE">
+
+
+  <br>
+<br>
+<font size=10 color=0099FF >
+Patient Demography <br></font>
+Age:
+  <input type="text" name="age">
+<br>
+<br>
+Sex(1-Male, 2-Female):  
+<input type="text" name="sex" >
+<br><br>
+<font size=10 color=0099FF >
+Treament <br></font>
+<font color=black>
+Procedure:
+  <input type="text" name="procedure_code">
+<br><br>
+<center><button type="submit" id="btn" value="Search">Search</button></center>
+
+</center>
+</font>
+
+</form>
+</head>
+</body>
+</html>
